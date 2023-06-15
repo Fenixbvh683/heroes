@@ -3,9 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/estilos.css">
+
     <title>Clarke</title>
 </head>
 <body>
-    <h1>CLARKE</h1>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="/">HEROES</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="/" onclick="seleccionar()"><span>HOME</span></a></li>
+                    <li><a href="/babbage" onclick="seleccionar()">BABBAGE</a></li>
+                    <li><a href="/berners-lee" onclick="seleccionar()">BERNERS-LEE</a></li>
+                    <li><a href="/clarke" onclick="seleccionar()">CLARKE</a></li>
+                    <li><a href="/hamilton" onclick="seleccionar()">HAMILTON</a></li>
+                    <li><a href="/hopper" onclick="seleccionar()">HOPPER</a></li>
+                    <li><a href="/lovelace" onclick="seleccionar()">LOVELACE</a></li>
+                    <li><a href="/turing" onclick="seleccionar()">TURING</a></li>
+                </ul>
+            </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="/img/clarke.jpg" alt="">
+            </div>
+            
+                <h1>Joan Clarke</h1>
+                <h2>Criptoanalista y Numismática</h2>
+                            
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Joan Elisabeth Lowther Murray: </span>  Naci en Londres, 24 de junio de 1917 falleci en Oxford, 4 de septiembre de 1996 fui una criptoanalista y numismática británica que trabaje en Bletchley Park durante la Segunda Guerra Mundial. Fui la única mujer que trabajó en el equipo del matemático Alan Turing en el proyecto Enigma, que desencriptó las comunicaciones secretas de la Alemania nazi. Mi papel en este proceso me valió premios y citaciones, como el nombramiento como miembro de la Orden del Imperio Británico (MBE), en 1946</p>
+    </section>
+
+    <!-- FOOTER -->
+ <footer>
+    <a href="#inicio" class="arriba">
+    <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="https://www.facebook.com/jlesmeaquino" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://join.skype.com/invite/DvbYz2kWhIdh" target="_blank"><i class="fa-brands fa-skype"></i></a>
+        <a href="https://www.linkedin.com/feed/?trk=sign-pg" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/Fenixbvh683" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <p>MANIDELA CREATIONS - 2023</p>
+    </div>
+</footer>
 </body>
 </html>

@@ -3,9 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/estilos.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
     <title>HOME</title>
 </head>
 <body>
-    <h1>HOME</h1>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="/">HEROES</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="/" onclick="seleccionar()"><span>HOME</span></a></li>
+                    <li><a href="/babbage" onclick="seleccionar()">BABBAGE</a></li>
+                    <li><a href="/berners-lee" onclick="seleccionar()">BERNERS-LEE</a></li>
+                    <li><a href="/clarke" onclick="seleccionar()">CLARKE</a></li>
+                    <li><a href="/hamilton" onclick="seleccionar()">HAMILTON</a></li>
+                    <li><a href="/hopper" onclick="seleccionar()">HOPPER</a></li>
+                    <li><a href="/lovelace" onclick="seleccionar()">LOVELACE</a></li>
+                    <li><a href="/turing" onclick="seleccionar()">TURING</a></li>
+                </ul>
+            </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+         </header>
+    </div>
+
+<!--SECCION HEROES-->
+<section id="heroes" class="heroes">
+    <div class="contenido-seccion">
+        <h2>DH HEROES</h2>
+        <div class="galeria">
+            <div class="fotos">
+                <img src="/img/babbage.jpg" alt="">
+                <div class="overlay">
+                    <h3>Charles Babbage</h3>
+                    <p>Matemático y Científico de la Computación</p>
+                </div>
+            </div>
+            <div class="fotos">
+                <img src="/img/berners-lee2.jpg" alt="">
+                <div class="overlay">
+                    <h3>Tim Berners-Lee</h3>
+                    <p>Científico de la Computación</p>
+                </div>
+            </div>
+            <div class="fotos">
+                <img src="/img/clarke.jpg" alt="">
+                <div class="overlay">
+                    <h3>Joan Clarke</h3>
+                    <p>Criptoanalista y Numismática</p>
+                </div>
+            </div>
+            <div class="fotos">
+                <img src="/img/hamilton.jpg" alt="">
+                <div class="overlay">
+                    <h3>Margaret Hamilton</h3>
+                    <p>Ingeniera de Software</p>
+                </div>
+            </div>
+            <div class="fotos">
+                <img src="/img/hopper.jpg" alt="">
+                <div class="overlay">
+                    <h3>Grace Hopper</h3>
+                    <p>Científica de la Computación y Militar</p>
+                </div>
+            </div>
+            <div class="fotos">
+                <img src="/img/lovelace.jpg" alt="">
+                <div class="overlay">
+                    <h3>Ada Lovelace</h3>
+                    <p>Matemática e Informática</p>
+                </div>
+            </div>
+            <div class="fotos">
+                <img src="/img/turing.jpg" alt="">
+                <div class="overlay">
+                    <h3>Alan Turing</h3>
+                    <p>Matemático y Científico de la Computación</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- FOOTER -->
+ <footer>
+    <a href="#inicio" class="arriba">
+    <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="https://www.facebook.com/jlesmeaquino" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://join.skype.com/invite/DvbYz2kWhIdh" target="_blank"><i class="fa-brands fa-skype"></i></a>
+        <a href="https://www.linkedin.com/feed/?trk=sign-pg" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/Fenixbvh683" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <p>MANIDELA CREATIONS - 2023</p>
+    </div>
+</footer>
+
+<script src="JS/script.js"></script>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
 </body>
 </html>

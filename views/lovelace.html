@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/estilos.css">
+    
     <title>Lovelace</title>
+
 </head>
 <body>
-    <h1>LOVELACE</h1>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="/">HEROES</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="/" onclick="seleccionar()"><span>HOME</span></a></li>
+                    <li><a href="/babbage" onclick="seleccionar()">BABBAGE</a></li>
+                    <li><a href="/berners-lee" onclick="seleccionar()">BERNERS-LEE</a></li>
+                    <li><a href="/clarke" onclick="seleccionar()">CLARKE</a></li>
+                    <li><a href="/hamilton" onclick="seleccionar()">HAMILTON</a></li>
+                    <li><a href="/hopper" onclick="seleccionar()">HOPPER</a></li>
+                    <li><a href="/lovelace" onclick="seleccionar()">LOVELACE</a></li>
+                    <li><a href="/turing" onclick="seleccionar()">TURING</a></li>
+                </ul>
+            </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="/img/lovelace.jpg" alt="">
+            </div>
+            
+                <h1>Ada Lovelace</h1>
+                <h2>Matemática e Informática</h2>
+                            
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Ada Lovelace: </span> Me llamo Augusta Ada King, conocida como la Condesa de Lovelace, Naci en Londres, el 10 de diciembre de 1815 falleci el 27 de noviembre de 1852, registrada al nacer como Augusta Ada Byron y conocida habitualmente como Ada Lovelace, fui una matemática, informática y escritora británica, célebre sobre todo por mi trabajo acerca de la calculadora de uso general de Charles Babbage, la denominada máquina analítica. Entre mis notas sobre la máquina, se encuentra lo que se reconoce hoy como el primer algoritmo destinado a ser procesado por una máquina, por lo que me consideran como la primera programadora de ordenadores.</p>
+    </section>
+
+    <!-- FOOTER -->
+ <footer>
+    <a href="#inicio" class="arriba">
+    <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="https://www.facebook.com/jlesmeaquino" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://join.skype.com/invite/DvbYz2kWhIdh" target="_blank"><i class="fa-brands fa-skype"></i></a>
+        <a href="https://www.linkedin.com/feed/?trk=sign-pg" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/Fenixbvh683" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <p>MANIDELA CREATIONS - 2023</p>
+    </div>
+</footer>
+
 </body>
 </html>

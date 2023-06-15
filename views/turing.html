@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/estilos.css">
+
     <title>Turing</title>
+
 </head>
 <body>
-    <h1>TURING</h1>
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="/">HEROES</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="/" onclick="seleccionar()"><span>HOME</span></a></li>
+                    <li><a href="/babbage" onclick="seleccionar()">BABBAGE</a></li>
+                    <li><a href="/berners-lee" onclick="seleccionar()">BERNERS-LEE</a></li>
+                    <li><a href="/clarke" onclick="seleccionar()">CLARKE</a></li>
+                    <li><a href="/hamilton" onclick="seleccionar()">HAMILTON</a></li>
+                    <li><a href="/hopper" onclick="seleccionar()">HOPPER</a></li>
+                    <li><a href="/lovelace" onclick="seleccionar()">LOVELACE</a></li>
+                    <li><a href="/turing" onclick="seleccionar()">TURING</a></li>
+                </ul>
+            </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="/img/turing.jpg" alt="">
+            </div>
+            
+                <h1>Alan Turing</h1>
+                <h2>Matemático y Científico de la Computación</h2>
+                            
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Alan Mathison Turing: </span> Naci en Paddington, Londres, el 23 de junio de 1912, falleci en Wilmslow, Cheshire, el 7 de junio de 1954, fui un matemático, lógico, científico de la computación, criptógrafo, filósofo, biólogo teórico, maratoniano y corredor de ultradistancia británico. Fui conocido como uno de los padres de la ciencia de la computación y precursor de la informática moderna. Proporcione una influyente formalización de los conceptos de algoritmo y computación: la máquina de Turing. Formule mi propia versión que hoy es ampliamente aceptada como la tesis de Church-Turing (1936).</p>
+    </section>
+
+    <!-- FOOTER -->
+ <footer>
+    <a href="#inicio" class="arriba">
+    <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="https://www.facebook.com/jlesmeaquino" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://join.skype.com/invite/DvbYz2kWhIdh" target="_blank"><i class="fa-brands fa-skype"></i></a>
+        <a href="https://www.linkedin.com/feed/?trk=sign-pg" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/Fenixbvh683" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <p>MANIDELA CREATIONS - 2023</p>
+    </div>
+</footer>
+
 </body>
 </html>
